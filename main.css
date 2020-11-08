@@ -1,1 +1,31 @@
-body {background-color: yellow;}
+body {
+    background-color: yellow;
+}
+header {
+    background-color: bisque;
+}
+    header>img {
+        background-color: blueviolet;
+    }
+    nav {
+        background-color: cornflowerblue;
+    }
+        header>nav>a {
+            background-color: darkcyan;
+        }
+div {
+    background-color: darkgoldenrod;
+}
+    h1 {
+        background-color: darkgrey;
+    }
+    p {
+        background-color: darksalmon;
+
+    }
+    body>div>a {
+        background-color: darkseagreen;
+    }
+img {
+    background-color: deeppink;
+}
