@@ -1,31 +1,62 @@
 body {
     background-color: yellow;
+    width: 1100px;
+    margin-left: calc( (100% - 1100px) / 2 );;
+    display: inline-block;
+    float: left;
 }
 header {
     background-color: bisque;
+    display: inline-block;
+    float: left;
+    width: 100%;
 }
     header>img {
         background-color: blueviolet;
+        display: inline-block;
+        float: left;
     }
     nav {
         background-color: cornflowerblue;
+        display: inline-block;
+        float: right;
     }
         header>nav>a {
             background-color: darkcyan;
+            display: inline-block;
+            float: left;
+
         }
 div {
+    display: inline-block;
     background-color: darkgoldenrod;
+    float: left;
+    width: 35%;
+
 }
     h1 {
+        display: inline-block;
         background-color: darkgrey;
+        float: left;
+        width: 100%;
     }
     p {
+        display: inline-block;
         background-color: darksalmon;
+        float: left;
+        width: 100%;
+
 
     }
     body>div>a {
+        display: inline-block;
         background-color: darkseagreen;
+        float: left;
     }
-img {
-    background-color: deeppink;
+body>img {
+    display: inline-block;
+    background-color: fuchsia;
+    float: left;
+    width:65%
+
 }
