@@ -26,6 +26,7 @@ header {
     }
         header>nav>a {
             background-color: darkcyan;
+            font-family: Arial, Helvetica, sans-serif;
             display: inline-block;
             float: left;
             text-decoration: none;
@@ -40,16 +41,20 @@ div {
     background-color: darkgoldenrod;
     float: left;
     width: 35%;
-    margin-top: 120px;
+    margin-top: 80px;
+    margin-left: 25px;
 
 }
     h1 {
         display: inline-block;
         background-color: darkgrey;
+        font-family: Arial, Helvetica, sans-serif;
         color:#4C4C4C;
-        font-size: 130px;
+        font-weight: bold;
+        font-size: 145px;
         float: left;
         width: 100%;
+    
         margin: 0;
         margin-bottom: -10px;
 
@@ -57,6 +62,7 @@ div {
     p {
         display: inline-block;
         background-color: darksalmon;
+        font-family: Arial, Helvetica, sans-serif;
         color: #858585;
         float: left;
         width: 100%;
@@ -67,11 +73,18 @@ div {
     }
     body>div>a {
         display: inline-block;
-        background-color: darkseagreen;
+        background-color:#00AAB7;
+        font-family: Arial, Helvetica, sans-serif;
         float: left;
+        margin-top: 60px;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 20px;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 15px;
         color: white;
     }
 body>img {
