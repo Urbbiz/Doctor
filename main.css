@@ -1,18 +1,15 @@
 body {
-    background-color: yellow;
     width: 1100px;
     margin-left: calc( (100% - 1000px) / 2 );;
     display: inline-block;
     float: left;
 }
 header {
-    background-color: bisque;
     display: inline-block;
     float: left;
     width: 100%;
 }
     header>img {
-        background-color: blueviolet;
         display: inline-block;
         float: left;
         width: 120px;
@@ -20,12 +17,10 @@ header {
         margin-top: 20px;
     }
     nav {
-        background-color: cornflowerblue;
         display: inline-block;
         float: right;
     }
         header>nav>a {
-            background-color: darkcyan;
             font-family: Arial, Helvetica, sans-serif;
             display: inline-block;
             float: left;
@@ -38,7 +33,6 @@ header {
         }
 div {
     display: inline-block;
-    background-color: darkgoldenrod;
     float: left;
     width: 35%;
     margin-top: 80px;
@@ -47,21 +41,18 @@ div {
 }
     h1 {
         display: inline-block;
-        background-color: darkgrey;
         font-family: Arial, Helvetica, sans-serif;
         color:#4C4C4C;
         font-weight: bold;
         font-size: 145px;
         float: left;
         width: 100%;
-    
         margin: 0;
         margin-bottom: -10px;
 
     }
     p {
         display: inline-block;
-        background-color: darksalmon;
         font-family: Arial, Helvetica, sans-serif;
         color: #858585;
         float: left;
@@ -89,7 +80,6 @@ div {
     }
 body>img {
     display: inline-block;
-    background-color: fuchsia;
     float: left;
     width:60%;
     margin-top: 120px;
